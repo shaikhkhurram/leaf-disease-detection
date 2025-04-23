@@ -1,0 +1,22 @@
+create  folder name Crop___Disease in which 
+Corn___Common_Rust
+Corn___Gray_Leaf_Spot
+Corn___Healthy
+Corn___Northern_Leaf_Blight
+Potato___Early_Blight
+Potato___Healthy
+Potato___Late_Blight
+Rice___Brown_Spot
+Rice___Healthy
+Rice___Leaf_Blast
+Rice___Neck_Blast
+Sugarcane___Bacterial_Blight
+Sugarcane___Healthy
+Sugarcane___Red_Rot
+Wheat___Brown_Rust
+Wheat___Healthy
+Wheat___Yellow_Rust
+datasets
+get it from :-Shubham Sharma/Five Crop Diseases Dataset(from kaggle)
+1.run train_model.py
+2.run app.py
