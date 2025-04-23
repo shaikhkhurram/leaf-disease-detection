@@ -1,0 +1,26 @@
+<!-- templates/index.html -->
+{% extends "import.html" %}
+
+{% block content %}
+<div class="container">
+    <h2>leaf Disease Detection</h2>
+
+    <form id="upload-file" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg" style="margin-top: 10px;">
+    </form>
+
+    <div class="image-section" style="display: none;">
+        <img id="imagePreview" class="image-preview" src="#" style="max-width: 300px;" />
+        <br>
+        <button type="button" class="btn btn-primary mt-2" id="btn-predict">Predict</button>
+    </div>
+
+    <div class="loader" style="display: none;">Processing...</div>
+
+    <h3 id="result" style="margin-top: 20px;">
+        <span></span>
+    </h3>
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+{% endblock %}
